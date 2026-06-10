@@ -1,0 +1,75 @@
+/* Tables */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 0;
+    background: var(--white);
+}
+
+.table thead {
+    background: var(--white);
+}
+
+.table thead th {
+    font-weight: 600;
+    color: var(--dark-gray);
+    border-bottom: 2px solid var(--border-color);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.table tbody td {
+    padding: 0.5rem 0.75rem;
+    vertical-align: middle;
+    font-size: 0.8125rem;
+    border-top: 1px solid var(--border-color);
+    transition: background-color var(--transition-base);
+}
+
+.table tbody tr {
+    transition: all var(--transition-base);
+    background: var(--white);
+}
+
+.table tbody tr:hover {
+    background-color: var(--light-bg);
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Badges */
+.badge {
+    font-size: 0.6875rem;
+    padding: 0.25rem 0.5rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+/* Pagination */
+.pagination {
+    margin: 0.5rem 0;
+    font-size: 0.75rem;
+}
+
+.pagination .page-link {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    color: var(--dark-gray);
+    border-color: var(--border-color);
+}
+
+.pagination .page-link:hover {
+    background-color: var(--light-bg);
+    border-color: var(--primary-red-darker);
+    color: var(--primary-red-darker);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--primary-red-darker);
+    border-color: var(--primary-red-darker);
+    color: var(--white);
+}

@@ -1,0 +1,63 @@
+/* Soft Color Palette - Clean Design */
+:root {
+    /* Primary Colors - Very Soft Red/Pink */
+    --primary-red: #E8B4B8;
+    --secondary-red: #F2D0D3;
+    --primary-red-dark: #D9777F;
+    --primary-red-darker: #C85A6A;
+    
+    /* Neutral Colors - Soft & Clean */
+    --dark-gray: #4A5568;
+    --medium-gray: #718096;
+    --light-gray: #CBD5E0;
+    --lighter-gray: #E2E8F0;
+    --white: #FFFFFF;
+    --light-bg: #FAFBFC;
+    --border-color: #E8EDF2;
+    
+    /* Accent Colors - Very Soft */
+    --accent-blue: #B8E0F5;
+    --accent-green: #C4F0D8;
+    --accent-yellow: #FCE8B8;
+    --accent-purple: #DDD4F8;
+    --accent-pink: #FDD4E4;
+    
+    /* Status Colors - Soft Pastels */
+    --success-soft: #D4F4DD;
+    --success-text: #2D5016;
+    --success-border: #9AE6B4;
+    --warning-soft: #FFF4E0;
+    --warning-text: #7C5A1A;
+    --warning-border: #FBD38D;
+    --danger-soft: #FFE5E5;
+    --danger-text: #7A2A2A;
+    --danger-border: #FCA5A5;
+    --info-soft: #E0F2FE;
+    --info-text: #1E3A5F;
+    --info-border: #90CDF4;
+    
+    /* Shadows - Very Soft */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.08);
+    
+    /* Transitions */
+    --transition-fast: 0.15s ease;
+    --transition-base: 0.2s ease;
+    --transition-slow: 0.3s ease;
+}
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--dark-gray);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
